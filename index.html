@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Pattern</title>
+    <!--Credits:
+    Icono de lupa: https://icons8.com/icon/65331/espionaje.
+    Patron de jumbotron: https://www.freepik.com/free-vector/abstract-geometric-pattern-background_1195853.htm
+    patrones de cards (en orden):
+    https://www.freepik.com/free-vector/colorful-memphis-design-background-vector_3893585.htm
+    https://www.freepik.com/free-vector/various-leaves-doodle-collection-vector_4034263.htm
+    https://www.freepik.com/free-vector/hand-drawn-embroidery-floral-background_4686336.htm#index=8
+    -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <script src="https://use.fontawesome.com/852c7a4bf8.js"></script>
+
+    <style>
+      a{
+        color: #ffffff;
+      }
+      /*opacity of bg img with linear gradient*/
+      .jumbotron{
+          background: linear-gradient(rgba(255, 238, 238, 0.7), rgba(255, 238, 238, 0.7)), url("https://image.freepik.com/free-vector/abstract-geometric-pattern-background_1319-242.jpg");
+      }
+      .card-img-top{
+        height: 215px;
+      }
+    </style>
+  </head>
+  <body>
+    <nav class="nav nav-dark bg-dark">
+        <a class="nav-link navbar-brand" href="#">Pattern</a>
+    </nav>
+<section id="header">
+    <div class="jumbotron jumbotron-fluid text-center">
+            <h1 class="display-4 text-uppercase">Patrones</h1>
+            <p class="lead">Buscá los patrones que necesites! Guardalos! Inspirate!</p>
+            <a class="btn btn-primary" href="#">Tutorial</a>
+            <a class="btn btn-primary" href="#">Unite!</a>
+          </div>
+        </section>
+
+<section id="gallery">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-4-lg m-2">
+                    <div class="card" style="width: 18rem;">
+                            <img class="card-img-top" src="https://image.freepik.com/free-vector/colorful-memphis-design-background-vector_53876-81744.jpg" alt="Card image cap">
+                            <div class="card-body">
+                              <h5 class="card-title">Abstracto</h5>
+                              <p class="card-text">Descripcion del patron acá</p>
+                              <a href="https://www.freepik.com/free-vector/colorful-memphis-design-background-vector_3893585.htm" class="btn btn-primary">Descarga</a>
+                            </div>
+                          </div>
+            </div>
+            <div class="col-4-lg m-2">
+                    <div class="card" style="width: 18rem;">
+                            <img class="card-img-top" src="card.jpg" alt="Card image cap">
+                            <div class="card-body">
+                              <h5 class="card-title">Hojas</h5>
+                              <p class="card-text">Descripcion del patron acá</p>
+                              <a href="https://www.freepik.com/free-vector/various-leaves-doodle-collection-vector_4034263.htm" class="btn btn-primary">Descarga</a>
+                            </div>
+                          </div>
+            </div>
+            <div class="col-4-lg m-2">
+                    <div class="card" style="width: 18rem;">
+                            <img class="card-img-top" src="https://image.freepik.com/free-vector/hand-drawn-embroidery-floral-background_23-2148192133.jpg" alt="Card image cap">
+                            <div class="card-body">
+                              <h5 class="card-title">Floral</h5>
+                              <p class="card-text">Descripcion del patron acá</p>
+                              <a href="https://www.freepik.com/free-vector/hand-drawn-embroidery-floral-background_4686336.htm#index=8" class="btn btn-primary">Descarga</a>
+                            </div>
+                          </div>
+            </div>
+        </div>
+    </div>
+</section>  
+  </body>
+</html>
